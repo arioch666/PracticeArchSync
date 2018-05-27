@@ -1,4 +1,4 @@
-package div_bytes.com.practicearch.ui.main
+package div_bytes.com.practicearch.main.ui
 
 import android.arch.lifecycle.ViewModel
 

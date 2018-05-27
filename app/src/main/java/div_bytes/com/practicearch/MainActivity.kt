@@ -2,7 +2,7 @@ package div_bytes.com.practicearch
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import div_bytes.com.practicearch.ui.main.MainFragment
+import div_bytes.com.practicearch.main.ui.MainFragment
 
 class MainActivity : AppCompatActivity() {
 
