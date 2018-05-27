@@ -21,8 +21,8 @@ const val TEXT  = "text"
  *
  */
 fun listImagesByFilterMapBuilder(method: String, text: String): Map<String, String>
-        = mapOf(METHOD to method,
-        TEXT to text, addApiToAPIKeyPair(), addFormatJsonPair(), addNoJsonCallBackPair())
+        = mapOf(METHOD to method, TEXT to text, addApiToAPIKeyPair(), addFormatJsonPair(),
+        addNoJsonCallBackPair())
 
 fun addApiToAPIKeyPair() = API_KEY to API_KEY_FLICKR
 
