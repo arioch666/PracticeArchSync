@@ -12,6 +12,10 @@ import retrofit2.http.QueryMap
 
 interface FlickrService {
 
+    /**
+     * There is a helper function that will generate the params based on the user Input
+     * @see listImagesByFilterMapBuilder
+     */
     @GET(API_NETWORK_BASE_URL)
     fun listImagesByFilter(@QueryMap options: Map<String, String>)
 
